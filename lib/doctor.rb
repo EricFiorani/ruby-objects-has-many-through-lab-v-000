@@ -16,11 +16,6 @@ class Doctor
 
   def new_appointment
     Appointment.new(patient, self, date)
-    appointments << appointment
-    patients << patient
-    patient.doctors << self
-    patient.appointments << appointment
-    appointment
   end
 
   def appointments
