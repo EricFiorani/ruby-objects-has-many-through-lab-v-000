@@ -11,7 +11,7 @@ class Appointment
     @date = date
   end
 
-  def self.all
+  def self.all(name, date)
     @@all
   end
 
