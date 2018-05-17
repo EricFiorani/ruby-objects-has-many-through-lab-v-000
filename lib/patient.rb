@@ -5,7 +5,7 @@ class Patient
   @@all = []
 
   def initialize()
-
+    @@all << self
   end
 
   def self.all
