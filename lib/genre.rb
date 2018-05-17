@@ -24,7 +24,7 @@ class Genre
   end
 
   def artists
-    slef.songs.map do |song|
+    self.songs.map do |song|
       song.artist
     end
   end
