@@ -11,6 +11,10 @@ class Appointment
     @date = date
   end
 
+  def self.all
+    @@all
+  end
+
   def patient
     @patient
   end
