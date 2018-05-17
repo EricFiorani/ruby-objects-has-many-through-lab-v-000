@@ -12,4 +12,12 @@ class Patient
   def self.all
     @@all
   end
+
+  def new_appointment
+  end
+
+  def doctors
+    appointments.map do |appointment|
+      appointment.doctor
+    end
 end
