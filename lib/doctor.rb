@@ -10,7 +10,7 @@ class Doctor
   end
 
   def new_appointment
-
+    
   end
 
   def appointments
