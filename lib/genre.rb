@@ -24,7 +24,9 @@ class Genre
   end
 
   def artists
-    @@all.artist
+    new_song.map do |artist|
+      new_song.artist
+    end
   end
 
 end
