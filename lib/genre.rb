@@ -18,7 +18,7 @@ class Genre
   end
 
   def songs
-    self.map.select do |song|
+    self.select do |song|
       song.genre == self
     end
   end
